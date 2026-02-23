@@ -117,7 +117,10 @@ This project demonstrates the importance of combining:
 
 # How to Run
 
-Clone the repository
+Clone the repository:
+```
+git clone https://github.com/dieeju7/Customer-Segmentation.git
+```
 
 Install dependencies:
 ```
