@@ -111,9 +111,12 @@ This project demonstrates the importance of combining:
 - Debugging analytical pipelines
 
 ## Project Structure
-- ThuVu_DAKD_2025_exercise_1.ipynb
-- shopping_centre.csv
-- README.md
+```
+.
+├── Customer Segmentation.ipynb
+├── README.md
+└── shopping_centre.csv
+```
 
 # How to Run
 
@@ -126,7 +129,7 @@ Install dependencies:
 ```
 pip install pandas numpy scikit-learn matplotlib seaborn
 ```
-Launch Jupyter Notebook: ThuVu_DAKD_2025_exercise_1.ipynb
+Launch Jupyter Notebook: Customer Segmentation.ipynb
 
 ## Skills Demonstrated
 
