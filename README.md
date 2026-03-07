@@ -7,6 +7,61 @@ The goal is to identify meaningful customer groups and determine the most approp
 ## Project Overview
 
 Clustering is an unsupervised learning technique used to group similar observations without predefined labels.
+---
+
+## Skills Demonstrated
+
+- Unsupervised Machine Learning
+
+- Hierarchical Clustering
+
+- Model Evaluation (Silhouette Analysis)
+
+- PCA for dimensionality reduction
+
+- Experimental comparison of multiple models
+
+- Analytical debugging and validation
+
+- Data visualization and interpretation
+
+---
+## Key Findings
+
+- Ward linkage produced the most stable and interpretable clusters.
+
+- Silhouette Score helped identify optimal cluster numbers.
+
+- Visual inspection in PCA space confirmed separation quality.
+
+- Careful tracking of cluster labels ensured correct visualization across experiments.
+
+This project demonstrates the importance of combining:
+
+- Quantitative metrics
+
+- Visual diagnostics
+
+- Careful experimental tracking
+
+- Debugging analytical pipelines
+
+---
+
+## Technologies Used
+
+- Python
+
+- Pandas
+
+- NumPy
+
+- Scikit-learn
+
+- Matplotlib
+
+- Seaborn
+
 
 In this project, I:
 
@@ -30,19 +85,6 @@ In this project, I:
 
 - Selected the best-performing clustering configurations for interpretation
 
-## Technologies Used
-
-- Python
-
-- Pandas
-
-- NumPy
-
-- Scikit-learn
-
-- Matplotlib
-
-- Seaborn
 
 ## Methodology
 1️ Data Preprocessing
@@ -90,26 +132,6 @@ Clustering performance was evaluated using:
 The four best-performing Ward-linkage models were selected and visualized for comparison.
 
 
-## Key Findings
-
-- Ward linkage produced the most stable and interpretable clusters.
-
-- Silhouette Score helped identify optimal cluster numbers.
-
-- Visual inspection in PCA space confirmed separation quality.
-
-- Careful tracking of cluster labels ensured correct visualization across experiments.
-
-This project demonstrates the importance of combining:
-
-- Quantitative metrics
-
-- Visual diagnostics
-
-- Careful experimental tracking
-
-- Debugging analytical pipelines
-
 ## Project Structure
 ```
 .
@@ -131,18 +153,3 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 ```
 Launch Jupyter Notebook: Customer Segmentation.ipynb
 
-## Skills Demonstrated
-
-- Unsupervised Machine Learning
-
-- Hierarchical Clustering
-
-- Model Evaluation (Silhouette Analysis)
-
-- PCA for dimensionality reduction
-
-- Experimental comparison of multiple models
-
-- Analytical debugging and validation
-
-- Data visualization and interpretation
